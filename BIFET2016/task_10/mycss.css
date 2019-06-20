@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  padding: 20px;
+}
+div {
+  box-sizing: border-box;
+  padding: 20px;
+  margin: auto;
+  width: 150px;
+}
+.first, .second, .third {
+  border: 1px solid #f00;
+}
+.fourth {
+  border: 1px solid #00f;
+}
+.first {
+  margin-left: 0;
+  height: 120px;
+}
+.second {
+  height: 100px;
+}
+.third {
+  height: 40px;
+}
+.fourth {
+  margin-right: 0;
+  height: 200px;
+}
+@media (max-width: 640px) {
+  body {
+    flex-wrap: wrap;
+  }
+  div {
+    margin: 10px;
+  }
+  .first {
+    margin: 10px;
+  }
+  .fourth {
+    margin: 10px;
+    border: 1px solid #00f;
+    order: -1;
+  }
+}

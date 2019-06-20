@@ -1,0 +1,117 @@
+table {
+  border-collapse: collapse;
+  font-family: "黑体";
+}
+thead {
+  text-align: left;
+  background-color: #000;
+  color: #fff;
+}
+tr, th, td {
+  border: 2px solid #fff;
+}
+tbody tr:nth-child(even) {
+  background-color: #bbb;
+}
+tbody tr:nth-child(-n+3) {
+  color: #f00;
+}
+input {
+  width: 100px;
+  transition: width 1s;
+}
+input:focus {
+  width: 200px;
+}
+.task-banner {
+  position: relative;
+  padding: 0;
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+}
+.task-banner:hover > .pics {
+  animation-play-state: paused;
+}
+@keyframes banner-roll {
+  0% { left: 0; }
+  23% { left: 0; }
+  33% { left: -100%; }
+  56% { left: -100%; }
+  66% { left: -200%; }
+  89% { left: -200%; }
+  100% { left: 0; }
+}
+.pics {
+  position: absolute;
+  height: 100%;
+  width: 300%;
+  font-size: 0;
+  left: 0;
+  transition: 1s left;
+  animation: banner-roll 10s infinite;
+}
+.pics * {
+  display: inline-block;
+  height: 200px;
+  width: 300px;
+}
+.pic-red {
+  background-color: #f00;
+}
+.pic-green {
+  background-color: #0f0;
+}
+.pic-blue {
+  background-color: #00f;
+}
+.buttons {
+  position: absolute;
+  height: 30px;
+  right: 0;
+  bottom: 0px;
+}
+.buttons:hover {
+  cursor: default;
+}
+[class*="btn-"] {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  font-family: "黑体";
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+[class*="btn-"]:hover {
+  cursor: pointer;
+}
+[class*="btn-"] a {
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  height: 30px;
+  width: 30px;
+}
+.btn-cover {
+  position: absolute;;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #bbb;
+  opacity: 0.6;
+}
+#red:target~.pics {
+  left: 0;
+}
+#green:target~.pics {
+  left: -100%;
+}
+#blue:target~.pics {
+  left: -200%;
+}

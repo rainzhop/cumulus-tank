@@ -1,0 +1,14 @@
+.root, .left, .right {
+  background-color: #fff;
+  display: inline-block;
+  border: 1px solid #000;
+  padding: 20px;
+}
+.highlight {
+  background-color: #00f;
+}
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}

@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  background-color: #DDD;
+  font-family: SimHei;
+}
+header {
+  padding: 0.5em;
+  background-color: #333;
+}
+header img {
+  margin-left: 2em;
+}
+header ul {
+  float: right;
+}
+header ul li {
+  float: left;
+  width: 6em;
+  font-size: 0.6em;
+  margin-right: 1em;
+}
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+header .visited {
+  color: #aaa;
+}
+article {
+  background-color: #fff;
+  margin: 1em;
+  padding: 1em;
+  box-shadow: 1px 1px 1px 1px #888;
+}
+article h2 {
+  font-size: 1em;
+  color: #666;
+}
+article .authortime {
+  font-size: 0.8em;
+  color: #666;
+}
+article p {
+  text-indent: 2em;
+  line-height: 1.5em;
+}
+article ul {
+  list-style: none;
+}
+article .pic {
+  text-align: center;
+  border: 1px solid #ccc;
+  width: 10em;
+  margin: 1em;
+  padding: 1em;
+}
+article .pic span {
+  display: block;
+}
+article .pic img {
+  width: 100%;
+}
+article table,th,td {
+  padding: 0.4em;
+  font-size: 0.8em;
+  border-collapse:collapse;
+  border: 1px solid #999;
+}
+article table {
+  width: 100%;
+}
+article thead {
+  text-align: left;
+  background-color: #000;
+  color: #fff;
+}
+article table .bottomRow {
+  background-color: #aaa;
+  font-weight: bold;
+}
+aside {
+  background-color: #fff;
+  margin: 1em;
+  padding: 1em;
+  box-shadow: 1px 1px 1px 1px #888;
+}
+aside h4 {
+  line-height: 2em;
+  border-left: 6px solid #ccc;
+  padding-left: 1em;
+}
+aside .regInfo {
+  font-size: 0.9em;
+}
+aside label {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+}
+aside input,select,textarea {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+aside .tips {
+  margin-left: calc(40% + 1em);
+  margin-bottom: 1em;
+  color: #888;
+}
+aside input[type="submit"] {
+  margin-left:0;
+  padding: 0;
+  border-radius: 10px;
+  background-color: #35d;
+  color: #fff;
+  height: 3em;
+  font-family: SimHei;
+  font-size: 1.2em;
+  width: 100%;
+}
+footer {
+  background: #000;
+  text-align: center;
+  color: #fff;
+  padding: 1.5em;
+  font-size: 0.8em;
+}

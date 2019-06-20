@@ -1,0 +1,40 @@
+* {
+
+  font-family: SimHei;
+}
+#all {
+  padding: 20px;
+  background-color: #eee;
+  overflow: auto;
+  border: 1px solid #999;
+}
+#team_name, #team_members, #team_intro {
+  border: 1px solid #999;
+  background-color: #fff;
+}
+#team_name {
+  float: left;
+  padding: 20px;
+  width: 160px;
+  font-size: 1em;
+}
+#team_logo {
+  float: left;
+}
+#team_members img {
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#team_intro {
+  padding: 20px;
+  margin-left: 220px;
+  margin-right: 140px;
+}
+#team_members {
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+  width: 80px;
+}

@@ -1,0 +1,12 @@
+.chart-day {
+  display: inline-block;
+  width: 10px;
+}
+.chart-week {
+  display: inline-block;
+  width: 20px;
+}
+.chart-month {
+  display: inline-block;
+  width: 30px;
+}

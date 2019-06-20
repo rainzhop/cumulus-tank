@@ -1,0 +1,17 @@
+.root, .child {
+  background-color: #fff;
+  display: inline-block;
+  border: 1px solid #000;
+  padding: 20px;
+}
+.highlight {
+  background-color: #00f;
+}
+.found {
+  background-color: #f00;
+}
+button, input{
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}

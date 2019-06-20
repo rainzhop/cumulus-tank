@@ -1,0 +1,11 @@
+.list-item {
+  display: inline-block;
+  width: 10px;
+  height: 40px;
+  background-color: #f00;
+  font-family: SimHei;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  margin: 3px;
+}
